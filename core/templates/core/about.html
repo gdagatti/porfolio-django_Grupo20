@@ -1,0 +1,21 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Sobre nos{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/Acerca-de.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1>Acerca de Nosotros</h1>
+<span class="subheading">¿Quienes somos?</span>
+{% endblock %}
+
+{% block content %}
+<div class="col-lg-3 col-md-4 offset-lg-1">
+    <img class="img-fluid avatar" src="{% static 'core/img/AvatarG20.png' %}" alt="">
+  </div>
+  <div class="col-lg-7 col-md-8">
+    <h2 class="section-heading">Grupo 20</h2>   
+    <p>Somos el Grupo 20, Nacimos como parte del Curso Fullstack Python  del programa Codo a Codo.</p>
+    <p>Somos, Sergio, Enzo, Javier y German. Juntos Hemos trabajado a lo largo de del primer cuatrimestre del 2023 para realizar los TP Obligatorios....</p>
+  </div>
+{% endblock %}
